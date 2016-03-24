@@ -1,0 +1,80 @@
+ /* Pascal Warren 2015 */
+
+ html, body{
+                height:95vh;
+            }
+            html {
+                background-color: #e6e9e9;
+                background-image: -webkit-linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
+                background-image: linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
+                -webkit-font-smoothing: antialiased;
+            }
+            body {
+                margin: 0 auto;
+                padding: 2em 2em 4em;
+                max-width: 800px;
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 16px;
+                line-height: 1.5em;
+                color: #545454;
+                background-color: #ffffff;
+                box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+            }
+            .panel-group .panel+.panel {
+                margin-top: 0px;
+            }
+            .panel-group .panel{
+                border-radius: 0px;
+                padding:0px;
+            }
+            .panel a{
+               display:block;
+               padding-left:15px;
+            }
+            .panel{
+                width:170px;
+            }
+            .panel-default{
+                border:1px;
+            }
+            .panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
+                border-top: none;
+            } 
+            .panel>.list-group:last-child .list-group-item:last-child, .panel>.panel-collapse>.list-group:last-child .list-group-item:last-child {
+                border-bottom-right-radius: 0px;
+                border-bottom-left-radius: 0px;
+                padding-bottom:20px;
+            }
+            .dropdown:hover .dropdown-menu {
+                display: block;
+            }
+            .list-group-item{
+                background-color:#333;
+                border: none;
+            }
+            .list-group-item a {
+                color:#fff;
+            }
+            .navbar-sm{
+                overflow-x:scroll;
+                overflow-y:hidden;
+                -webkit-overflow-scrolling:touch;
+                margin: 30px -30px;
+            }
+            .navbar-nav-sm{
+               position:relative;
+               width:63.75em;/*=====CHANGE TO FIT SIZE OF ALL LINKS========*/
+               margin:0;
+               background-color: #333;
+               border-color: #fff;
+            }
+            .navbar .nav > li {
+              float:none;
+              display:inline-block;
+              *display:inline; /* ie7 fix */
+              *zoom:1; /* hasLayout ie7 trigger */
+              vertical-align: top;
+            }
+            .modal {
+                margin-top: 10em;
+            }
